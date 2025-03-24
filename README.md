@@ -12,7 +12,7 @@ This is a database management system built with Flask and SQLite.
 ## Installation & Setup
 1. Clone the Repository
 
-- git clone https://github.com/<your-username>/database_management_system_project.git
+- git clone https://github.com/<"your-username">/database_management_system_project.git
 - cd database_managment_system_project
 
 2. Create a Virtual Environment
