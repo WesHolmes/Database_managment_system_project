@@ -68,6 +68,7 @@ def delete_employee(employee_id):
     return redirect(url_for('view_employees'))
 
 if __name__ == '__main__':
+    
     with app.app_context():
         db.create_all()
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=int(os.getenv('PORT', 5000)))
