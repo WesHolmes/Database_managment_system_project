@@ -12,23 +12,23 @@ This is a database management system built with Flask and SQLite.
 ## Installation & Setup
 1. Clone the Repository
 
-git clone https://github.com/<your-username>/database_management_system_project.git
-cd database_managment_system_project
+- git clone https://github.com/<your-username>/database_management_system_project.git
+- cd database_managment_system_project
 
 2. Create a Virtual Environment
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+- python3 -m venv venv
+- source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 4. Install Dependencies
-pip install Flask Flask-SQLAlchemy
-pip freeze > requirements.txt
+- pip install Flask Flask-SQLAlchemy
+- pip freeze > requirements.txt
 
 5. Run the Application
-python app.py
-Then, open http://127.0.0.1:5000/ in your browser.
+- python app.py
+- Then, open http://127.0.0.1:5000/ in your browser.
 
 6. Close the Application
-To stop the Flask server, press CTRL+C in the terminal.
+- To stop the Flask server, press CTRL+C in the terminal.
 
 ### MIT License
 This project is licensed under the MIT License.
