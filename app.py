@@ -11,11 +11,11 @@ db_path = os.path.join(BASE_DIR, 'db.db')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-db = SQLAlchemy(app)
+db.init_app(app)
 
-# -------------------------
+
+
 # MODELS
-# -------------------------
 class Employee(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
@@ -25,12 +25,11 @@ class Employee(db.Model):
     def __repr__(self):
         return f"<Employee {self.name}>"
 
-# -------------------------
+
 # ROUTES
-# -------------------------
 @app.route('/')
 def home():
-    return render_template('home.html') and "Database is set up!"
+    return render_template('home.html')
 
 @app.route('/employees')
 def view_employees():
