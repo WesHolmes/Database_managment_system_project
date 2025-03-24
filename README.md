@@ -1,6 +1,6 @@
-# Database Management System
+# Employee Database Management System
 ## Overview
-This is a database management system built with Flask and SQLite. It allows users to manage employee records, including adding, updating, and deleting employees.
+This is a database management system built with Flask and SQLite.
 
 ## Features
 - View employees in the database
@@ -30,6 +30,7 @@ Then, open http://127.0.0.1:5000/ in your browser.
 6. Close the Application
 To stop the Flask server, press CTRL+C in the terminal.
 
+### MIT License
 This project is licensed under the MIT License.
 
 ### Author
