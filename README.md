@@ -25,7 +25,7 @@ This is a database management system built with Flask and SQLite. you can create
 - pip freeze > requirements.txt
 
 5. Run Application
-- python app.py
+- python app.py OR flask run
 - Then, open http://127.0.0.1:5000/ in your browser.
 
 6. Close Application
@@ -36,5 +36,3 @@ This project is licensed under the MIT License.
 
 ### Author
 Westley Holmes - 2025
-### Credit
-PKing for the project recommendation and assistance.
