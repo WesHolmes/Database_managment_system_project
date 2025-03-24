@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 import os
 from models import db, User
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 # Configure the SQLite database
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
