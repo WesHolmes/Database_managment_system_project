@@ -3,6 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 import os
 from models import db, User
 
+#DIRECTORY
 app = Flask(__name__, template_folder='templates')
 
 # Configure the SQLite database
@@ -67,6 +68,7 @@ def delete_employee(employee_id):
     db.session.commit()
     return redirect(url_for('view_employees'))
 
+# Error handling
 if __name__ == '__main__':
     
     with app.app_context():
